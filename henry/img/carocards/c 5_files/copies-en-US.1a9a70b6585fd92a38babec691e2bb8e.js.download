@@ -1,0 +1,1 @@
+"undefined"!=typeof i18n?i18n.add({"en-US":{related_guides:{title:"Related Guides",see_more_guides:"See more guides"}}}):setTimeout(function(){throw new Error("i18n is not defined 😭")});

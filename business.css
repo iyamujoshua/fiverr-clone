@@ -1,0 +1,121 @@
+html,body{
+    font-family: poppins;
+}
+.vid{
+    margin-top: 90px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 15px;
+    background-color: #1dbf73;
+    border: 2px solid #1dbf73;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+.fas{
+    position: relative;
+    animation-name: bounce;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounce {
+    0%{
+        top: 50px;
+        bottom:100px;
+      
+       
+
+    }
+    25%{
+        top: 50px;
+        bottom:0px;
+      
+    }
+    50%{
+        top: 0px;
+        bottom: 50px;
+    }
+    100%{
+        left: 0px;
+        right: 0px;
+        top: 50px;
+       bottom:50px;
+        
+    }
+    
+}
+.trust{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bts{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #1dbf73;
+    border: 2px solid #1dbf73;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+.hov:hover{
+    color:#0d084d;
+    cursor: pointer;
+
+}
+.page-1 .banner {
+    
+	color: #fff;
+    text-align: center;
+	-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+
+.page-1 .banner h1 {
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.page-1 .banner p {
+	color: #fff;
+	font-size: 30px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;padding: 10px 0;
+}
+.dropbtn{
+    cursor: pointer;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #0d084d;
+   
+    color: white;
+     box-shadow: 0 10 30px rgba(0, 0, 0, 0.281);
+    min-width: 190px;
+}
+.dropdown-content p{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+    margin-bottom:50px ;
+    z-index: 3;
+  
+}
+
+
+

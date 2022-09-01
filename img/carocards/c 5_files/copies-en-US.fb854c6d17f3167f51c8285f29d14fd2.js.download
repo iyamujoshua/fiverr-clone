@@ -1,0 +1,1 @@
+"undefined"!=typeof i18n?i18n.add({"en-US":{file_uploader:{upload_button:{attach_file:"Attach File",attach_files:"Attach Files",max_1gb:"Max 1GB",max_files:"Up to ${limit} files"}}}}):setTimeout(function(){throw new Error("i18n is not defined 😭")});
